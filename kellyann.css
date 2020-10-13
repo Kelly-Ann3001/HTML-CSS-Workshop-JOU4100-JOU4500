@@ -102,3 +102,10 @@ body {
     text-decoration: none;
 }
 
+.img{
+    width: 250px;
+}
+
+.photo {
+    font-size: 12px;    
+}
