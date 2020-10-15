@@ -1,12 +1,12 @@
 html, body {
     margin: 0;
     padding: 0px 0px 0px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #666666;
+    font-family: 'Times New Roman', sans-serif;
+    color: black;
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: lightgrey;
 }
 
 .top-bar {
@@ -17,27 +17,27 @@ body {
 }
 
 .logo {
-   font-size: 30px;
+   font-size: 40px;
    position: absolute;
    padding: 0px 0px 0px 20px;
    z-index: 3;
-   color: #131359;
+   color: black;
    font-weight: bold;
 }
 
 .top-menu {
-   background-color: #131359;
+   background-color: black;
    position: absolute;
-   top: 85px;
+   top: 90px;
    z-index: 2;
    width: 100%;
 }
 
 .top-menu ul {
     list-style-type: none;
-    font-size: 20px; 
+    font-size: 22px; 
     float: right;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 .top-menu li {
@@ -47,20 +47,20 @@ body {
 .top-menu li a:link, .top-menu li a:visited {
     color: white;
     text-decoration: none;
-    padding: 20px 20px 20.5px 20px;
+    padding: 15px 15px 15px 15px;
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    background-color: lightgray;
 }
 
 .current-page-link {
-    background-color: #db0e0e;
+    background-color: grey;
 }
 
 .page-content {
     position: relative;
-    top: 145px;
+    top: 160px;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -69,7 +69,7 @@ body {
 }
 
 .main-section {
-    padding: 10px 20px 10px 20px;
+    padding: 5px 15px 5px 15px;
 }
 
 .main-section h1, .main-section h2 {
@@ -79,17 +79,17 @@ body {
 .main-section figure, .main-section img {
     display: block;
     margin: auto;
-    width: 800px;
+    width: 450px;
 }
 
 .footer {
     position: relative;
-    top: 140px;
+    top: 160px;
     z-index: 3;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#3f3c3c;
+    background-color: black;
 }
 
 .footer-content {
@@ -102,10 +102,13 @@ body {
     text-decoration: none;
 }
 
-.img{
-    width: 250px;
+.photo {
+    font-size: 15px;    
 }
 
-.photo {
-    font-size: 12px;    
-}
+.titre {
+    font-weight: bold;
+}  
+        
+    
+    
